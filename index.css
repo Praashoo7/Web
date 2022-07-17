@@ -1,0 +1,2991 @@
+@font-face {
+  font-family: Caviar Dreams;
+  src: url("caviardreams.ttf");
+}
+        
+@font-face {
+  font-family: Caviar Dreams;
+  src: url("caviardreams_bold.ttf");
+  font-weight: bold;
+}
+
+.up {
+  position: absolute;
+  top: 20%;
+  left: 49.5%;
+  font-family: Caviar Dreams;
+  color: white;
+  font-size: 150px;
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+               -1px -1px 0 #000;
+               
+}
+
+.centered {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  box-shadow: inset 0 0 0 0 #ffffff;
+  color: #000000;
+  margin: 0 -.25rem;
+  padding: 1rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.centered:hover {
+  box-shadow: inset 1500px 0 0 0 #000000;
+  color: #ffffff;
+}
+
+.input-color1 {
+  position: absolute;
+  top: 48%;
+  left:13%;
+}
+
+.input-color1 input {
+  padding-left: 20px;
+}
+.color-box {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  background-color: #000000;
+}
+
+.icons1{
+  position: absolute; 
+  top: 57%;
+  left: 18.5%;
+opacity: 1;
+  transition: 0.3s;
+}
+.icons1:hover {opacity: 0.6;
+cursor: pointer;}
+
+.proj1 {
+  position: absolute;
+  top: 70%;
+  left: 17.2%;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 30px;
+  font-size: 19px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  background: #000000;
+  font-family: Caviar Dreams;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  transition: .4s;
+}
+
+.proj1:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 21px rgb(0, 0, 0);
+  border-bottom: solid 41px transparent;
+  z-index: 1;
+  transition: .4s;
+}
+
+.proj1:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 21px transparent;
+  border-bottom: solid 41px rgb(0, 0, 0);
+  z-index: 1;
+  transition: .4s;
+}
+
+.proj1:hover:before, .proj1:hover:after{
+  border-left-width: 25px;
+}
+
+.proj1:hover{
+  background: #ff0000;
+}
+
+.input-color2 {
+  position: absolute;
+  top: 48%;
+  left: 32%;
+}
+
+.input-color2 input {
+  padding-left: 20px;
+}
+
+.icons2{
+  position: absolute; 
+  top: 57%;
+  left: 37.3%;
+opacity: 1;
+  transition: 0.3s;
+}
+.icons2:hover {opacity: 0.6;
+cursor: pointer;}
+
+.proj2 {
+  position: absolute;
+  top: 70%;
+  left: 36.5%;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 30px;
+  font-size: 19px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  background: #000000;
+  font-family: Caviar Dreams;
+  font-weight: bold;
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  transition: .4s;
+}
+
+.proj2:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 21px rgb(0, 0, 0);
+  border-bottom: solid 41px transparent;
+  z-index: 1;
+  transition: .4s;
+}
+
+.proj2:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 21px transparent;
+  border-bottom: solid 41px rgb(0, 0, 0);
+  z-index: 1;
+  transition: .4s;
+}
+
+.proj2:hover:before, .proj2:hover:after{
+  border-left-width: 25px;
+}
+
+.proj2:hover{
+  background: #ff0000;
+}
+
+
+.input-color3 {
+  position: absolute;
+  top: 48%;
+  left: 51%;
+}
+
+.input-color3 input {
+  padding-left: 20px;
+}
+
+.icons3{
+  position: absolute; 
+  top: 54%;
+  left: 55.6%;
+opacity: 1;
+  transition: 0.3s;
+}
+.icons3:hover {opacity: 0.6;
+cursor: pointer;}
+
+.proj3 {
+  position: absolute;
+  top: 70%;
+  left: 55.2%;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 30px;
+  font-size: 19px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  background: #000000;
+  font-family: Caviar Dreams;
+  font-weight: bold;
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  transition: .4s;
+}
+
+.proj3:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 21px rgb(0, 0, 0);
+  border-bottom: solid 41px transparent;
+  z-index: 1;
+  transition: .4s;
+}
+
+.proj3:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 21px transparent;
+  border-bottom: solid 41px rgb(0, 0, 0);
+  z-index: 1;
+  transition: .4s;
+}
+
+.proj3:hover:before, .proj3:hover:after{
+  border-left-width: 25px;
+}
+
+.proj3:hover{
+  background: #ff0000;
+}
+
+.input-color4 {
+  position: absolute;
+  top: 48%;
+  left: 70%;
+}
+
+.input-color4 input {
+  padding-left: 20px;
+}
+
+.icons4{
+  position: absolute; 
+  top: 57%;
+  left: 75.4%;
+opacity: 1;
+  transition: 0.3s;
+}
+.icons4:hover {opacity: 0.6;
+cursor: pointer;}
+
+.proj4 {
+  position: absolute;
+  top: 70%;
+  left: 74%;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 30px;
+  font-size: 19px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  background: #000000;
+  font-family: Caviar Dreams;
+  font-weight: bold;
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  transition: .4s;
+}
+
+.proj4:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 21px rgb(0, 0, 0);
+  border-bottom: solid 41px transparent;
+  z-index: 1;
+  transition: .4s;
+}
+
+.proj4:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 21px transparent;
+  border-bottom: solid 41px rgb(0, 0, 0);
+  z-index: 1;
+  transition: .4s;
+}
+
+.proj4:hover:before, .proj4:hover:after{
+  border-left-width: 25px;
+}
+
+.proj4:hover{
+  background: #ff0000;
+}
+
+.icons5 .fa-twitter {
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  left: 92%;
+  top: 5%;
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+.icons6 .fa-instagram {
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  left: 95%;
+  top: 5%;
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+.icons5 .fa:hover {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.icons6 .fa:hover {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.icons7{
+  position: absolute; 
+  top:5%;
+  left: 3%;
+  opacity: 1;
+  transition: 0.3s;
+}
+.icons7:hover {opacity: 0.6;
+cursor: pointer;}
+
+
+.input-color1 {  
+  animation-name: input-color1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 5.5px;
+  margin-top: 2px;
+}
+
+.color-box:active {
+  box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+    transform: translateY(2px);
+}
+
+@keyframes input-color1 {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.icons1 {  
+  animation-name: icons1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
+@keyframes icons1 {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.proj1 {  
+  animation-name: proj1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
+@keyframes proj1 {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.input-color2 {  
+  animation-name: input-color1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
+@keyframes input-color2 {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.icons2 {  
+  animation-name: icons2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
+@keyframes icons2 {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.proj2 {  
+  animation-name: proj2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
+@keyframes proj2 {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.input-color3 {  
+  animation-name: input-color1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
+@keyframes input-color3 {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.icons3 {  
+  animation-name: icons3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
+@keyframes icons3 {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.proj3 {  
+  animation-name: proj3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
+@keyframes proj3 {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.input-color4 {  
+  animation-name: input-color1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
+@keyframes input-color4 {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.icons4 {  
+  animation-name: icons4;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
+@keyframes icons4 {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.proj4 {  
+  animation-name: proj4;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
+@keyframes proj4 {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.copyright {
+  position: absolute;
+  top: 95%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  font-family: Caviar Dreams;
+  font-size: 2ch;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+
+}
+
+b {
+  background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0)) no-repeat right bottom / 0 var(--bg-h);
+  transition: background-size 150ms;
+  --bg-h: 8%;
+}
+b:where(:hover, :focus-visible) {
+  background-size: 100% var(--bg-h);
+  background-position-x: left;
+}
+
+.underline {
+  padding-bottom: 2px;
+  --bg-h: 2px;
+}
+
+b {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1280px){
+
+  .up{
+    position: absolute;
+    top: 25%;
+    left: 51.8%;
+    font-family: Caviar Dreams;
+    font-size: 16ch;
+    color: rgb(0, 0, 0);
+  }
+
+  .centered {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    box-shadow: inset 0 0 0 0 #ffffff;
+    color: #000000;
+    margin: 0 -.25rem;
+    padding: 1rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  
+  .centered:hover {
+    box-shadow: inset 1500px 0 0 0 #000000;
+    color: #ffffff;
+  }
+
+  .input-color1 {
+    position: absolute;
+    top: 50%;
+    left:4%;
+  }
+  
+  .input-color1 input {
+    padding-left: 20px;
+  }
+  .color-box {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    border-radius: 25px;
+    background-color: #000000;
+  }
+  
+  
+  .icons1{
+    position: absolute; 
+    top: 59%;
+    left: 11%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons1:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj1 {
+    position: absolute;
+    top: 73%;
+    left: 9%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+  }
+  
+  .proj1:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj1:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj1:hover:before, .proj1:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj1:hover{
+    background: #ff0000;
+  }
+  
+  .input-color2 {
+    position: absolute;
+    top: 50%;
+    left: 28%;
+  }
+  
+  .input-color2 input {
+    padding-left: 20px;
+  }
+  
+  .icons2{
+    position: absolute; 
+    top: 59%;
+    left: 35%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons2:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj2 {
+    position: absolute;
+    top: 73%;
+    left: 33.6%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+  }
+  
+  .proj2:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj2:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj2:hover:before, .proj2:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj2:hover{
+    background: #ff0000;
+  }
+  
+  
+  .input-color3 {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+  }
+  
+  .input-color3 input {
+    padding-left: 20px;
+  }
+  
+  .icons3{
+    position: absolute; 
+    top: 56%;
+    left: 58%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons3:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj3 {
+    position: absolute;
+    top: 74%;
+    left: 57.5%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+  }
+  
+  .proj3:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj3:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj3:hover:before, .proj3:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj3:hover{
+    background: #ff0000;
+  }
+  
+  .input-color4 {
+    position: absolute;
+    top: 50%;
+    left: 76%;
+  }
+  
+  .input-color4 input {
+    padding-left: 20px;
+  }
+  
+  .icons4{
+    position: absolute; 
+    top: 58%;
+    left: 83%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons4:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj4 {
+    position: absolute;
+    top: 74%;
+    left: 81%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+  }
+  
+  .proj4:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj4:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj4:hover:before, .proj4:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj4:hover{
+    background: #ff0000;
+  }
+  
+  
+  .icons5{
+    position: absolute; 
+    top:3%;
+    left: 88%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons5:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .icons6{
+    position: absolute; 
+    top:3%;
+    left: 93%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons6:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .icons7{
+    position: absolute; 
+    top:2.8%;
+    left: 5%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons7:hover {opacity: 0.6;
+  cursor: pointer;}
+
+  .input-color1 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 5.5px;
+    margin-top: 2px;
+  }
+  
+  .color-box:active {
+    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+      transform: translateY(2px);
+  }
+  
+  @keyframes input-color1 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons1 {  
+    animation-name: icons1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons1 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj1 {  
+    animation-name: proj1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj1 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .input-color2 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes input-color2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons2 {  
+    animation-name: icons2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj2 {  
+    animation-name: proj2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .input-color3 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes input-color3 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons3 {  
+    animation-name: icons3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons3 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj3 {  
+    animation-name: proj3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj3 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .input-color4 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes input-color4 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons4 {  
+    animation-name: icons4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons4 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj4 {  
+    animation-name: proj4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj4 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .copyright {
+    position: absolute;
+    top: 108%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    font-family: Caviar Dreams;
+    font-size: 2ch;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  
+  }
+  
+  b {
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0)) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 150ms;
+    --bg-h: 8%;
+  }
+  b:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+  }
+  
+  .underline {
+    padding-bottom: 2px;
+    --bg-h: 2px;
+  }
+  
+  b {
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+  }
+
+}
+
+@media screen and (max-width:960px) {
+
+  .up{
+    position: absolute;
+    top: 25%;
+    left: 52%;
+    font-family: Caviar Dreams;
+    font-size: 12ch;
+    color: rgb(0, 0, 0);
+  }
+
+  .centered {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    box-shadow: inset 0 0 0 0 #ffffff;
+    color: #000000;
+    margin: 0 -.25rem;
+    padding: 1rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  
+  .centered:hover {
+    box-shadow: inset 1500px 0 0 0 #000000;
+    color: #ffffff;
+  }
+
+  .input-color1 {
+    position: absolute;
+    top: 40%;
+    left:10%;
+  }
+  
+  .input-color1 input {
+    padding-left: 20px;
+  }
+  .color-box {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: #000000;
+  }
+  
+  
+  .icons1{
+    position: absolute; 
+    top: 48%;
+    left: 22.5%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons1:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj1 {
+    position: absolute;
+    top: 57%;
+    left: 19.5%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+  }
+  
+  .proj1:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj1:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj1:hover:before, .proj1:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj1:hover{
+    background: #ff0000;
+  }
+  
+  .input-color2 {
+    position: absolute;
+    top: 40%;
+    left: 54%;
+  }
+  
+  .input-color2 input {
+    padding-left: 20px;
+  }
+  
+  .icons2{
+    position: absolute; 
+    top: 48%;
+    left: 66.5%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons2:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj2 {
+    position: absolute;
+    top: 57%;
+    left: 64.5%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+  }
+  
+  .proj2:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj2:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj2:hover:before, .proj2:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj2:hover{
+    background: #ff0000;
+  }
+  
+  
+  .input-color3 {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+  
+  .input-color3 input {
+    padding-left: 20px;
+  }
+  
+  .icons3{
+    position: absolute; 
+    top: 75%;
+    left: 21%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons3:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj3 {
+    position: absolute;
+    top: 88%;
+    left: 19.7%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+  }
+  
+  .proj3:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj3:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj3:hover:before, .proj3:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj3:hover{
+    background: #ff0000;
+  }
+  
+  .input-color4 {
+    position: absolute;
+    top: 70%;
+    left: 54%;
+  }
+  
+  .input-color4 input {
+    padding-left: 20px;
+  }
+  
+  .icons4{
+    position: absolute; 
+    top: 77%;
+    left: 66.5%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons4:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj4 {
+    position: absolute;
+    top: 88%;
+    left: 63.5%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+  }
+  
+  .proj4:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj4:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj4:hover:before, .proj4:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj4:hover{
+    background: #ff0000;
+  }
+  
+  
+  .icons5{
+    position: absolute; 
+    top:3%;
+    left: 88%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons5:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .icons6{
+    position: absolute; 
+    top:3%;
+    left: 93%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons6:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .icons7{
+    position: absolute; 
+    top:2.8%;
+    left: 5%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons7:hover {opacity: 0.6;
+  cursor: pointer;}
+
+  .input-color1 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 5.5px;
+    margin-top: 2px;
+  }
+  
+  .color-box:active {
+    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+      transform: translateY(2px);
+  }
+  
+  @keyframes input-color1 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons1 {  
+    animation-name: icons1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons1 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj1 {  
+    animation-name: proj1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj1 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .input-color2 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes input-color2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons2 {  
+    animation-name: icons2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj2 {  
+    animation-name: proj2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .input-color3 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes input-color3 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons3 {  
+    animation-name: icons3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons3 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj3 {  
+    animation-name: proj3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj3 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .input-color4 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes input-color4 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons4 {  
+    animation-name: icons4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons4 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj4 {  
+    animation-name: proj4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj4 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .copyright {
+    position: absolute;
+    top: 110%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    font-family: Caviar Dreams;
+    font-size: 2ch;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  
+  }
+  
+  b {
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0)) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 150ms;
+    --bg-h: 8%;
+  }
+  b:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+  }
+  
+  .underline {
+    padding-bottom: 2px;
+    --bg-h: 2px;
+  }
+  
+  b {
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+  }
+
+}
+
+@media screen and (max-width:576px) {
+
+
+  .up{
+    position: absolute;
+    top: 30%;
+    left: 52%;
+    font-family: Caviar Dreams;
+    font-size: 7ch;
+    color: rgb(0, 0, 0);
+  }
+
+  .centered {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    box-shadow: inset 0 0 0 0 #ffffff;
+    color: #000000;
+    margin: 0 -.25rem;
+    padding: 1rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  
+  .centered:hover {
+    box-shadow: inset 1500px 0 0 0 #000000;
+    color: #ffffff;
+  }
+
+  .input-color1 {
+    position: absolute;
+    top: 51%;
+    left:11.8%;
+  }
+  
+  .input-color1 input {
+    padding-left: 20px;
+  }
+  .color-box {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: #000000;
+  }
+  
+  
+  .icons1{
+    position: absolute; 
+    top: 60%;
+    left: 38%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons1:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj1 {
+    position: absolute;
+    top: 73%;
+    left: 31.2%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+  }
+  
+  .proj1:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj1:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj1:hover:before, .proj1:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj1:hover{
+    background: #ff0000;
+  }
+  
+  .input-color2 {
+    position: absolute;
+    top: 90%;
+    left: 11.8%;
+  }
+  
+  .input-color2 input {
+    padding-left: 20px;
+  }
+  
+  .icons2{
+    position: absolute; 
+    top: 98%;
+    left: 38%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons2:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj2 {
+    position: absolute;
+    top: 113%;
+    left: 33%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+  }
+  
+  .proj2:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj2:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj2:hover:before, .proj2:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj2:hover{
+    background: #ff0000;
+  }
+  
+  
+  .input-color3 {
+    position: absolute;
+    top: 129%;
+    left: 11.8%;
+  }
+  
+  .input-color3 input {
+    padding-left: 20px;
+  }
+  
+  .icons3{
+    position: absolute; 
+    top: 136%;
+    left: 34.8%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons3:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj3 {
+    position: absolute;
+    top: 153%;
+    left: 32.3%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+  }
+  
+  .proj3:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj3:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj3:hover:before, .proj3:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj3:hover{
+    background: #ff0000;
+  }
+  
+  .input-color4 {
+    position: absolute;
+    top: 168.5%;
+    left: 11.8%;
+  }
+  
+  .input-color4 input {
+    padding-left: 20px;
+  }
+  
+  .icons4{
+    position: absolute; 
+    top: 178%;
+    left: 38%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons4:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj4 {
+    position: absolute;
+    top: 192%;
+    left: 31%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+  }
+  
+  .proj4:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj4:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj4:hover:before, .proj4:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj4:hover{
+    background: #ff0000;
+  }
+  
+  
+  .icons5{
+    position: absolute; 
+    top:3.1%;
+    left: 80%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons5:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .icons6{
+    position: absolute; 
+    top:3%;
+    left: 90%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons6:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .icons7{
+    position: absolute; 
+    top:2.8%;
+    left: 5%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons7:hover {opacity: 0.6;
+  cursor: pointer;}
+
+  .input-color1 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 5.5px;
+    margin-top: 2px;
+  }
+  
+  .color-box:active {
+    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+      transform: translateY(2px);
+  }
+  
+  @keyframes input-color1 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons1 {  
+    animation-name: icons1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons1 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj1 {  
+    animation-name: proj1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj1 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .input-color2 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes input-color2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons2 {  
+    animation-name: icons2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj2 {  
+    animation-name: proj2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .input-color3 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes input-color3 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons3 {  
+    animation-name: icons3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons3 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj3 {  
+    animation-name: proj3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj3 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .input-color4 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes input-color4 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons4 {  
+    animation-name: icons4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons4 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj4 {  
+    animation-name: proj4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj4 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .copyright {
+    position: absolute;
+    top: 220%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    font-family: Caviar Dreams;
+    font-size: 1.8ch;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  
+  }
+  
+  b {
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0)) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 150ms;
+    --bg-h: 8%;
+  }
+  b:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+  }
+  
+  .underline {
+    padding-bottom: 2px;
+    --bg-h: 2px;
+  }
+  
+  b {
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+  }
+
+}
+
+@media screen and (max-width:380px) {
+
+
+  .up{
+    position: absolute;
+    top: 30%;
+    left: 52%;
+    font-family: Caviar Dreams;
+    font-size: 7ch;
+    color: rgb(255, 255, 255);
+  }
+
+  .centered {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    box-shadow: inset 0 0 0 0 #ffffff;
+    color: #000000;
+    margin: 0 -.25rem;
+    padding: 1rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  
+  .centered:hover {
+    box-shadow: inset 1500px 0 0 0 #000000;
+    color: #ffffff;
+  }
+
+  .input-color1 {
+    position: absolute;
+    top: 61%;
+    left:11.8%;
+  }
+  
+  .input-color1 input {
+    padding-left: 20px;
+  }
+  .color-box {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: #000000;
+  }
+  
+  
+  .icons1{
+    position: absolute; 
+    top: 73%;
+    left: 38%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons1:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj1 {
+    position: absolute;
+    top: 90%;
+    left: 31.2%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    transition: .4s;
+  }
+  
+  .proj1:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj1:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj1:hover:before, .proj1:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj1:hover{
+    background: #ff0000;
+  }
+  
+  .input-color2 {
+    position: absolute;
+    top: 110%;
+    left: 11.8%;
+  }
+  
+  .input-color2 input {
+    padding-left: 20px;
+  }
+  
+  .icons2{
+    position: absolute; 
+    top: 123%;
+    left: 38%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons2:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj2 {
+    position: absolute;
+    top: 140%;
+    left: 33%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    transition: .4s;
+  }
+  
+  .proj2:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj2:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj2:hover:before, .proj2:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj2:hover{
+    background: #ff0000;
+  }
+  
+  
+  .input-color3 {
+    position: absolute;
+    top: 159%;
+    left: 11.8%;
+  }
+  
+  .input-color3 input {
+    padding-left: 20px;
+  }
+  
+  .icons3{
+    position: absolute; 
+    top: 166%;
+    left: 34.8%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons3:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj3 {
+    position: absolute;
+    top: 193%;
+    left: 32.3%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    transition: .4s;
+  }
+  
+  .proj3:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj3:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj3:hover:before, .proj3:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj3:hover{
+    background: #ff0000;
+  }
+  
+  .input-color4 {
+    position: absolute;
+    top: 208.5%;
+    left: 11.8%;
+  }
+  
+  .input-color4 input {
+    padding-left: 20px;
+  }
+  
+  .icons4{
+    position: absolute; 
+    top: 220%;
+    left: 38%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons4:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .proj4 {
+    position: absolute;
+    top: 242%;
+    left: 31%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #000000;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    transition: .4s;
+  }
+  
+  .proj4:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px #000000;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj4:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px transparent;
+    border-bottom: solid 41px #000000;
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  .proj4:hover:before, .proj4:hover:after{
+    border-left-width: 25px;
+  }
+  
+  .proj4:hover{
+    background: #ff0000;
+  }
+  
+  
+  .icons5{
+    position: absolute; 
+    top:3%;
+    left: 77%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons5:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .icons6{
+    position: absolute; 
+    top:3%;
+    left: 88%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons6:hover {opacity: 0.6;
+  cursor: pointer;}
+  
+  .icons7{
+    position: absolute; 
+    top:2.8%;
+    left: 5%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .icons7:hover {opacity: 0.6;
+  cursor: pointer;}
+
+  .input-color1 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 5.5px;
+    margin-top: 2px;
+  }
+  
+  .color-box:active {
+    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+      transform: translateY(2px);
+  }
+  
+  @keyframes input-color1 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons1 {  
+    animation-name: icons1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons1 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj1 {  
+    animation-name: proj1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj1 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .input-color2 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes input-color2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons2 {  
+    animation-name: icons2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj2 {  
+    animation-name: proj2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .input-color3 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes input-color3 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons3 {  
+    animation-name: icons3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons3 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj3 {  
+    animation-name: proj3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj3 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .input-color4 {  
+    animation-name: input-color1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes input-color4 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .icons4 {  
+    animation-name: icons4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes icons4 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .proj4 {  
+    animation-name: proj4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  @keyframes proj4 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
+  
+  .copyright {
+    position: absolute;
+    top: 275%;
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+    font-family: Caviar Dreams;
+    font-size: 1.7ch;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  
+  }
+  
+  b {
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0)) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 150ms;
+    --bg-h: 8%;
+  }
+  b:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+  }
+  
+  .underline {
+    padding-bottom: 2px;
+    --bg-h: 2px;
+  }
+  
+  b {
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+  }
+
+}
