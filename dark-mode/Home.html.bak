@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="icon" href="webtab_d.png">
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+    <header>
+
+        <style>
+
+            @font-face {
+                font-family: Caviar Dreams;
+                src: url("caviardreams.ttf");
+            }
+            
+            @font-face {
+                font-family: Caviar Dreams;
+                src: url("caviardreams_bold.ttf");
+                font-weight: bold;
+            }
+            
+                </style>
+
+        <div class="up">
+                <div class="centered">PORTFOLIO</div>
+        </div>
+
+        <div class="input-color1">
+            <div class="color-box" style="background-color: #ffffff;"></div>
+        </div>
+
+        <div class="icons1">
+            <a href="Projects.html">
+            <img src="Project_d.png">
+            </a>
+        </div>
+
+        <div class="proj1">
+            <a href="Projects.html" style="color: rgb(0, 0, 0);">Project</a>
+        </div>   
+        
+        <div class="input-color2">
+            <div class="color-box" style="background-color: #ffffff;"></div>
+        </div>
+
+        <div class="icons2">
+            <a href="About.html">
+            <img src="About_d.png">
+            </a>
+        </div>
+
+        <div class="proj2">
+            <a href="About.html" style="color: rgb(0, 0, 0);">About</a>
+        </div>   
+
+        <div class="input-color3">
+            <div class="color-box" style="background-color: #ffffff;"></div>
+        </div>
+
+        <div class="icons3">
+            <a href="https://github.com/Praashoo7">
+            <img src="GitHub_d.png">
+            </a>
+        </div>
+
+        <div class="proj3">
+            <a href="https://github.com/Praashoo7" style="color: rgb(0, 0, 0);">GitHub</a>
+        </div>   
+
+        <div class="input-color4">
+            <div class="color-box" style="background-color: #ffffff;"></div>
+        </div>
+
+        <div class="icons4">
+            <a href="Contact.html">
+            <img src="Contact_d.png">
+            </a>
+        </div>
+
+        <div class="proj4">
+            <a href="Contact.html" style="color: black;">Contact</a>
+        </div>   
+
+        <div class="icons5">
+            <img src="twitter_l.png">
+        </div>
+
+        <div class="icons6">
+            <img src="instagram_l.png">
+        </div>
+
+        <div class="icons7">
+            <a href="C:\Users\Prashant\Desktop\u3\Proj(light)\Home.html">
+                <img src="light.png">
+            </a>
+            </div>
+
+        <div class="input-color5">
+            <div class="color-box" style="background-color: #000000;"></div>
+        </div>
+
+      </div>
+    </header>
+</body>
+</html>
