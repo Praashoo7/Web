@@ -1,20 +1,23 @@
 <?php
-         $to = "fromtome99@gmail.com";
-         $subject = "This is subject";
-         
-         $message = "<b>This is HTML message.</b>";
-         $message .= "<h1>Name : $_POST["name"];<br/>E-Mail : $_POST["email"];<br/>Message : $_POST["message"]</h1>";
-         
-         $header = "From:fromtome99@gmail.com \r\n";
-         $header .= "Cc:fromtome99@gmail.com \r\n";
-         $header .= "MIME-Version: 1.0\r\n";
-         $header .= "Content-type: text/html\r\n";
-         
-         $retval = mail ($to,$subject,$message,$header);
-         
-         if( $retval == true ) {
-            echo "Message sent successfully...";
-         }else {
-            echo "Message could not be sent...";
-         }
-      ?>
+
+$host = "ssl://smtp.gmail.com";
+$username = "";
+$password = "";
+$port = "465";
+$to = "";
+$email_from = $_POST['email'];
+$email_subject = "Mail From me";
+$email_body = $_POST['message'];
+$email_address = "reply-to@example.com";
+
+$headers = array ('From' => $email_from, 'To' => $to, 'Subject' => $email_subject, 'Reply-To' => $email_address);
+$smtp = Mail::factory('smtp', array ('host' => $host, 'port' => $port, 'auth' => true, 'username' => $username, 'password' => $password));
+$mail = $smtp->send($to, $headers, $email_body);
+
+
+if (PEAR::isError($mail)) {
+echo("<p>" . $mail->getMessage() . "</p>");
+} else {
+echo("<p>Message successfully sent!</p>");
+}
+?>
