@@ -1,10 +1,10 @@
 <?php
 
 $host = "ssl://smtp.gmail.com";
-$username = "fromtome99@gmail.com";
-$password = "fsfsfsfs";
+$username = "";
+$password = "";
 $port = "465";
-$to = "prashant09855@gmail.com";
+$to = "";
 $email_from = $_POST['email'];
 $email_subject = "Mail From me";
 $email_body = $_POST['message'];
